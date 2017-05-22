@@ -69,7 +69,16 @@ Copyright = '(c) 2017 PANDER. All rights reserved.'
 # NestedModules = @()
 
 # Functions to export from this module, for best performance, do not use wildcards and do not delete the entry, use an empty array if there are no functions to export.
-FunctionsToExport = '*'
+FunctionsToExport = @(
+    'Get-PrimeClientDetail',
+    'Get-PrimeDevices',
+    'Get-PrimeInventoryDetails',
+    'Get-PrimeAccessPoints',
+    'Edit-PrimeAccessPoint',
+    'Get-PrimeClients',
+    'Get-PrimeDeviceConfigsVersions',
+    'Get-PrimeConfigFile'
+)
 
 # Cmdlets to export from this module, for best performance, do not use wildcards and do not delete the entry, use an empty array if there are no cmdlets to export.
 CmdletsToExport = '*'
